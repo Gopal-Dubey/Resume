@@ -1,0 +1,113 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+	/*background: #F3F2E7;*/
+	background: linear-gradient(45deg, lightgray 0%,lightgrey 100%);
+}
+.outer {
+    max-width: 700px;
+    background-color: #fff ;
+    padding: 20px;
+}
+.outer header{
+    /* background-color:lightgray; */
+}
+.outer header .imgbox {
+    background-image: url('3.jpg');
+    background-position: 0 -10px;
+    background-size: cover;
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 120px;
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.outer header h1{
+    font-family: arial;	
+	font-weight: bolder;
+	font-variant: small-caps;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0 0;
+}
+.outer header h3 {
+    font-family: arial;
+    color: black;
+    text-align: left;
+    padding:0 10px;
+    margin: 5px 0 15px;
+}
+.outer .heading {
+    background-color: rgb(54, 56, 77);
+    width: auto;
+    height: auto;
+}
+.outer .heading .content{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer p{
+    padding:0 10px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer table{
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+.outer table tr th,
+.outer table tr td{ 
+    border: 2px solid black;
+    /*background-color:red;*/
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer table tr td{ 
+    font-size: 17px;
+}
+.outer ol li p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    /* padding: 0; */
+    margin: 10px 0;
+}
+.outer ol li b{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.outer ol ol p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+}
+@media(min-width: 600px ) {
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media(min-width: 800px ) {
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
