@@ -17,9 +17,7 @@ body
     background-color: #fff ;
     padding: 20px;
 }
-.outer header{
-    /* background-color:lightgray; */
-}
+
 .outer header .imgbox {
     background-image: url('3.jpg');
     background-position: 0 -10px;
